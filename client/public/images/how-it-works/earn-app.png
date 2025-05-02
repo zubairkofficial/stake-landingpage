@@ -1,0 +1,41 @@
+<!-- This is a placeholder SVG representing the Earn app screenshot -->
+<svg width="360" height="740" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="740" fill="#FFC940"/>
+  <rect x="0" y="0" width="360" height="80" fill="#FFD670"/>
+  <text x="20" y="50" font-family="Arial" font-size="24" fill="#121726" font-weight="bold">My Earnings</text>
+  
+  <!-- Total Earnings Card -->
+  <rect x="20" y="100" width="320" height="120" rx="12" fill="#ffffff"/>
+  <text x="40" y="130" font-family="Arial" font-size="16" fill="#909090">Total Earnings</text>
+  <text x="40" y="170" font-family="Arial" font-size="32" fill="#121726" font-weight="bold">AED 8,450</text>
+  <rect x="250" y="140" width="60" height="30" rx="15" fill="#30D48C" fill-opacity="0.2"/>
+  <text x="260" y="160" font-family="Arial" font-size="14" fill="#30D48C" font-weight="bold">+12%</text>
+  
+  <!-- Monthly Breakdown -->
+  <rect x="20" y="240" width="320" height="50" rx="8" fill="#ffffff"/>
+  <text x="40" y="272" font-family="Arial" font-size="16" fill="#121726">January 2023</text>
+  <text x="260" y="272" font-family="Arial" font-size="16" fill="#30D48C" font-weight="bold">AED 650</text>
+  
+  <rect x="20" y="300" width="320" height="50" rx="8" fill="#ffffff"/>
+  <text x="40" y="332" font-family="Arial" font-size="16" fill="#121726">February 2023</text>
+  <text x="260" y="332" font-family="Arial" font-size="16" fill="#30D48C" font-weight="bold">AED 650</text>
+  
+  <rect x="20" y="360" width="320" height="50" rx="8" fill="#ffffff"/>
+  <text x="40" y="392" font-family="Arial" font-size="16" fill="#121726">March 2023</text>
+  <text x="260" y="392" font-family="Arial" font-size="16" fill="#30D48C" font-weight="bold">AED 650</text>
+  
+  <rect x="20" y="420" width="320" height="50" rx="8" fill="#ffffff"/>
+  <text x="40" y="452" font-family="Arial" font-size="16" fill="#121726">April 2023</text>
+  <text x="260" y="452" font-family="Arial" font-size="16" fill="#30D48C" font-weight="bold">AED 650</text>
+  
+  <rect x="20" y="480" width="320" height="50" rx="8" fill="#ffffff"/>
+  <text x="40" y="512" font-family="Arial" font-size="16" fill="#121726">May 2023</text>
+  <text x="260" y="512" font-family="Arial" font-size="16" fill="#30D48C" font-weight="bold">AED 650</text>
+  
+  <!-- Wallet Card -->
+  <rect x="20" y="560" width="320" height="120" rx="12" fill="#121726"/>
+  <text x="40" y="590" font-family="Arial" font-size="16" fill="#909090">Wallet Balance</text>
+  <text x="40" y="630" font-family="Arial" font-size="32" fill="#ffffff" font-weight="bold">AED 5,200</text>
+  <rect x="250" y="590" width="60" height="30" rx="4" fill="#30D48C"/>
+  <text x="260" y="610" font-family="Arial" font-size="14" fill="#121726" font-weight="bold">Withdraw</text>
+</svg> 

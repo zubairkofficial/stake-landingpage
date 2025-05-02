@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: white;
+  color: #0f172a;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+a {
+  transition: color 0.2s;
+}
+
+/* Layout and Components */
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+/* Mobile menu styles */
+.mobile-menu-open {
+  overflow: hidden;
+}
+
+.mobile-menu-item {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.mobile-menu-section {
+  padding: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.mobile-menu-header {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+/* Framer Motion custom animations */
+.framer-opacity {
+  opacity: 0;
+}
+
+.framer-slide-up {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.framer-slide-down {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.framer-slide-left {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+.framer-slide-right {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.framer-scale {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+
+
