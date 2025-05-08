@@ -15,9 +15,7 @@ const AgeVerificationPopup = () => {
     navigate('/404');
   };
 
-  const handleClose = () => {
-    setIsVisible(false);
-  };
+
 
   if (!isVisible) {
     return null;
@@ -32,7 +30,7 @@ const AgeVerificationPopup = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             className="fixed inset-0 z-[9999] bg-black/50 backdrop-blur-sm"
-            onClick={handleClose}
+            
           />
 
           <motion.div
@@ -42,12 +40,7 @@ const AgeVerificationPopup = () => {
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
             className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[10000] bg-white rounded-xl shadow-xl max-w-md w-[90%] p-8"
           >
-            <button
-              onClick={handleClose}
-              className="absolute top-2 right-2 text-black-400 hover:text-black-800"
-            >
-              <IoClose size={24} />
-            </button>
+
 
             <div className="text-center">
               <div className="mb-6">
