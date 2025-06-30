@@ -13,7 +13,7 @@ import CTA from "./components/sections/CTA";
 import Stats from "./components/sections/Stats";
 import HowToMakeMoney from "./components/sections/HowToMakeMoney";
 import ReviewCarousel from "./components/sections/ReviewCarousel";
-import AgeVerificationPopup from "./components/AgeVerificationPopup";
+// import AgeVerificationPopup from "./components/AgeVerificationPopup";
 import NotFound from "./components/NotFound";
 import "./App.css";
 
@@ -56,7 +56,7 @@ function AppContent({ showAgeVerification, closeAgeVerification, isMenuOpen, set
         </Routes>
       </main>
       <Footer />
-      {showAgeVerification && <AgeVerificationPopup onClose={closeAgeVerification} />}
+      {/* {showAgeVerification && <AgeVerificationPopup onClose={closeAgeVerification} />} */}
     </div>
   );
 }
